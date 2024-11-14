@@ -11,5 +11,5 @@ IDE
 Node 
 
 Steps to take: 
-Clone this repo
+Clone this repo...
  All done!!
