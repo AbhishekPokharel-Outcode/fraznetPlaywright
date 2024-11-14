@@ -10,6 +10,6 @@ Downloads You'll need
 IDE 
 Node 
 
-Steps to take
+Steps to take: 
 Clone this repo
-All done!!
+ All done!!
