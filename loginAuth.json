@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "process.env.APP_URL",
+      "localStorage": [
+        {
+          "name": "isLoggedIn",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
