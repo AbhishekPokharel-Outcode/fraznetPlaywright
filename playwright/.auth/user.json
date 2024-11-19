@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "_gid",
+      "value": "GA1.2.407191844.1731821031",
+      "domain": ".fraznet.com",
+      "path": "/",
+      "expires": 1731907430,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_167084632_1",
+      "value": "1",
+      "domain": ".fraznet.com",
+      "path": "/",
+      "expires": 1731821090,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.432479004.1731821031",
+      "domain": ".fraznet.com",
+      "path": "/",
+      "expires": 1766381031.003931,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1731821931.387761,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sessionid",
+      "value": "1xvzt3pycfe1oqedm8rvk8vjskwd0zdi",
+      "domain": "qa.fraznet.com",
+      "path": "/",
+      "expires": 1732425832.937526,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csrftoken",
+      "value": "wqjRPGGfXMakg8WiiqClVDBIAkfDwUUY",
+      "domain": "qa.fraznet.com",
+      "path": "/",
+      "expires": 1763270634.191424,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_DFWQY3RFMF",
+      "value": "GS1.1.1731821030.1.0.1731821034.56.0.0",
+      "domain": ".fraznet.com",
+      "path": "/",
+      "expires": 1766381034.208441,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,12 +1,9 @@
-import { test, expect } from '@playwright/test';
+import {test, expect} from '@playwright/test';
 
-test.use({
-    viewport: {
-        height: 1080,
-        width: 1920
-    }
+test('auth', async ({page}) => {
+    // page is authenticated
 });
-test('logout', async ({ page }) => {
+test('logout', async ({page}) => {
 
 
     // await page.waitForSelector('body > div.main-panel > div > div.row.content-header-section > div > div > div:nth-child(1) > div.col-md-6', { state: 'visible' });
@@ -17,10 +14,9 @@ test('logout', async ({ page }) => {
     // await page.selectOption('#select_dashboard', { label: randomOption });
     // console.log(`Selected option: ${randomOption}`);
     // await page.waitForTimeout(9000);
-
-    await page.getByRole('link', { name: 'QA TESTER' }).click();
-    await page.getByRole('button', { name: 'Sign Out' }).click();
-
+    await page.goto(process.env.APP_URL);
+    await page.getByRole('link', {name: 'QA TESTER'}).click();
+    await page.getByRole('button', {name: 'Sign Out'}).click();
 
 
 });
