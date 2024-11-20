@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-// import { CreateStorePage } from './CreateStorePage';
+import {CreateStorePage} from "../../page-objects/STORE/CreateStore";
 
 test('test create store from contract', async ({page}) => {
     const createStorePage = new CreateStorePage(page);
