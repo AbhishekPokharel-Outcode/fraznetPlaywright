@@ -1,7 +1,11 @@
 import {test} from '@playwright/test';
 import {CreateStorePage} from "../../page-objects/STORE/CreateStore";
 
-test('test create store from contract', async ({page}) => {
+
+test('Auth', async ({page}) => {
+    // page is authenticated
+});
+test('create a store from contract', async ({page}) => {
     const createStorePage = new CreateStorePage(page);
 
     await createStorePage.navigateToContractsPage();
