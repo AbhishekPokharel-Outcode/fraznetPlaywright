@@ -5,7 +5,7 @@ export class CreateStorePage {
     }
 
     async navigateToContractsPage() {
-        await this.page.goto('https://dev3.fraznet.com/contracts');
+        await this.page.goto('process.env.APP_URL');
     }
 
     async clickCreateStore() {
